@@ -44,4 +44,4 @@ print(table)
 # Calculation of Overweight
 
 n_overweight = len(table[table['BMI_Category'] == 'Overweight'])
-print ("Number of overweight prople","=", n_overweight );
+print ("Number of overweight people = ", n_overweight );
