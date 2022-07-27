@@ -41,7 +41,7 @@ table[['BMI_Category', 'Health_Risk']] = pd.DataFrame(table['BMI_Cat'].tolist(),
 table.drop('BMI_Cat', axis=1, inplace=True)
 print(table)
 
-# Calculation of Overweight
+# Number of Overweight People
 
 n_overweight = len(table[table['BMI_Category'] == 'Overweight'])
 print ("Number of overweight people = ", n_overweight );
