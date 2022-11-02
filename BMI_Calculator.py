@@ -28,7 +28,7 @@ def Compare(x):
     elif (BMI <= 39.9):
         BMI_Category = 'Severely Obese'
         Health_Risk = 'High Risk'
-    elif BMI > 39.9:
+    else:
         BMI_Category = 'Very Severely Obese'
         Health_Risk = 'Very High Risk'
     return BMI_Category, Health_Risk
