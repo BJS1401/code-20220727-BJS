@@ -16,16 +16,16 @@ def Compare(x):
     if BMI <= 18.4:
         BMI_Category = 'Underweight'
         Health_Risk = 'Malnutrition Risk'
-    elif (BMI > 18.4) and (BMI <= 24.9):
+    elif (BMI <= 24.9):
         BMI_Category = 'Normal Weight'
         Health_Risk = 'Low Risk'
-    elif (BMI > 24.9) and (BMI <= 29.9):
+    elif (BMI <= 29.9):
         BMI_Category = 'Overweight'
         Health_Risk = 'Enhanced Risk'
-    elif (BMI > 29.9) and (BMI <= 34.9):
+    elif (BMI <= 34.9):
         BMI_Category = 'Moderately Obese'
         Health_Risk = 'Medium Risk'
-    elif (BMI > 35) and (BMI <= 39.9):
+    elif (BMI <= 39.9):
         BMI_Category = 'Severely Obese'
         Health_Risk = 'High Risk'
     elif BMI > 39.9:
